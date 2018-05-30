@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini exo : 08</title>
+    <style>
+        body {
+            background: olive;
+        }
+        div {
+            background: pink;
+            margin-bottom: 10px;
+        }
+        p {
+            background: white;
+            color: red;
+        }
+        .displaynone {
+            display: none;
+        }
+        .displayinline {
+            display: inline;
+        }
+        .displayblock {
+            display: block;
+        }
+        .displayinlineblock {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display</h1>
+    
+    <div>        
+    <h2>1/ Comportement normal de chez normal</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p>Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#">Et à la fin du texte un lien !</a>
+    </div>
+    <div>
+    <h2>2/ display: none;</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displaynone">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displaynone">Et à la fin du texte un lien !</a>
+    </div>
+    <div>
+        <h2>3/ display: inline;</h2>
+        <!-- affiche un élément comme un élément enligne aucune propriété de largeur ni de haurteur n'auront d'effet -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displayinline">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displayinline">Et à la fin du texte un lien !</a>
+    </div>
+    <div>
+        <h2>4/ display: block;</h2>
+        <!-- affiche un élément comme un bloc (ex. p) il commence sur une nouvelle ligne et prends toute la largeur -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displayblock">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displayblock">Et à la fin du texte un lien !</a>
+    </div>
+    <div>
+            <h2>5/ display: inline-block;</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displayinlineblock">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displayinlineblock">Et à la fin du texte un lien !</a>
+        </div>
+</html>
