@@ -22,12 +22,17 @@
         }
         .displayinline {
             display: inline;
+            /* height: 50px;
+            width: 480px; */
         }
         .displayblock {
             display: block;
         }
         .displayinlineblock {
             display: inline-block;
+            /* background: white;
+            height: 50px;
+            width: 480px; */
         }
     </style>
 </head>
@@ -40,11 +45,12 @@
     </div>
     <div>
     <h2>2/ display: none;</h2>
+    <!-- l'élément n'est pas affiché -->
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displaynone">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displaynone">Et à la fin du texte un lien !</a>
     </div>
     <div>
         <h2>3/ display: inline;</h2>
-        <!-- affiche un élément comme un élément enligne aucune propriété de largeur ni de haurteur n'auront d'effet -->
+        <!-- affiche un élément comme un élément enligne aucune propriété de largeur ni de hauteur n'auront d'effet -->
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displayinline">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displayinline">Et à la fin du texte un lien !</a>
     </div>
     <div>
@@ -53,7 +59,8 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displayblock">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displayblock">Et à la fin du texte un lien !</a>
     </div>
     <div>
-            <h2>5/ display: inline-block;</h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displayinlineblock">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displayinlineblock">Et à la fin du texte un lien !</a>
-        </div>
+        <h2>5/ display: inline-block;</h2>
+        <!-- affiche un élément comme un élément de niveau de bloc enligne, l'élément est formaté comme un élément enligne mais on peut lui donner une valeur de hauteur et de largeur ! -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse inventore, eveniet temporibus nostrum numquam soluta doloremque illo, perspiciatis deleniti omnis laboriosam, distinctio consectetur! <p class="displayinlineblock">Coucou les amis, un paragraphe !</p>Ipsam iure aperiam quidem dolore ad! <a href="#" class="displayinlineblock">Et à la fin du texte un lien !</a>
+    </div>
 </html>
