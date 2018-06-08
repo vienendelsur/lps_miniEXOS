@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini exo : 15</title>
+    <style>
+        /* couleurs de fond */
+        .vert {
+            background:green;
+        }
+        .orange {
+            background: orangered;
+        }
+        .bleu {
+            background: lightblue;
+        }
+        
+        .centre_padding {
+            padding: 70px 0;
+            text-align: center;
+        }
+
+        .centre_lineheight {
+            height: 300px;
+            line-height: 300px;
+        }
+
+        .centre2 {
+            height: 500px;
+            line-height: 500px;
+        }
+        /* si il y a plusieurs lignes ajoutons le code suivant au p */
+        
+        .centre2 p {
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Centré verticalement en utilisant <code>padding</code></h2>
+    <div class="centre_padding bleu">
+        <p>Je suis centré verticalement</p>
+    </div>
+    <hr>
+<!-- utilisation de line-height avec une valeur égale à la hauteur du bloc -->
+    <h2>Centré verticalement en utilisant <code>line-height</code></h2>
+    <div class="centre_lineheight orange">
+        <p>Je suis centré verticalement  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deleniti repudiandae magnam tempora itaque, consequuntur consectetur non reiciendis quos explicabo voluptas numquam delectus provident facere deserunt temporibus in enim quis. Lorem <br>ipsum dolor sit amet consectetur adipisicing elit. Doloribus autem facere ipsum vel fugiat sunt, dignissimos iure, provident ad sed maxime consequuntur earum assumenda minus obcaecati quasi mollitia blanditiis harum!</p>
+    </div>
+
+    <hr>
+    <h2>Et si il y a plusieurs élements ?</h2>
+    <div class="centre2 bleu">
+            <p>1 Je suis centré verticalement et j'ai plusieurs éléments</p>
+            <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, delectus. Iste aliquam veniam ad provident labore veritatis necessitatibus eos quasi qui distinctio, dolores vel dolorem, excepturi accusantium. Eum, commodi quas.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quasi, odio aliquam tenetur voluptatibus, vero dolores mollitia, repellat inventore beatae facilis illum quaerat. Consectetur officia distinctio officiis veniam. Iste, quia.</p> 
+        </div>
+</body>
+</html>
